@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Meta tags for defining character set, compatibility, and viewport settings -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Link to the website's favicon -->
+<link rel="icon" type="image/jpg" href="favicon1.jpg">
+<!-- Title of the webpage -->
+<title>Blood Heroes</title>
+</head>
+<body>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body style="background-color: white;">
+  <title>Responsive Hero with Image</title>
+
+  <!-- Font Awesome CSS -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <style>
+    /* CSS styles for the basic template */
+
+    header {
+      background-color: navy;
+      color: #fff;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header i {
+      margin-right: 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      padding: 0 1rem;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      color: #ccc;
+    }
+
+    @media (max-width: 768px) {
+
+      /* Smaller screens - adjust the layout */
+      header {
+        display: flex;
+        flex-direction: column;
+      }
+
+      nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      nav ul li {
+        flex-basis: 100%;
+      }
+    }
+
+    /* New styles for the hero section */
+
+    .hero-section {
+      background-image: url('https://images.unsplash.com/photo-1615461065929-4f8ffed6ca40?q=80&w=1929&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      background-size: cover;
+      background-position: center;
+      height: calc(50vh - 60px);
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+  </head>
+
+  <body>
+
+    <!-- Font Awesome icon with a class of fas fa-hand-holding-droplet -->
+
+    <header>
+      <i class="fas fa-hand-holding-droplet" style="font-size: 100px;"></i>
+      <h1> Blood Heroes<br></h1>
+      <nav>
+        <ul>
+          <li><a href="https://www.redcross.org/donate/donation.html">Donate</a></li>
+          <li><a href="https://www.redcross.org/give-blood.html">Give Blood</a></li>
+          <li><a
+              href="https://www.redcross.org/take-a-class?utm_source=RCO&utm_medium=RCO_Navigation_Training_Certification">Training
+              & Certification</a></li>
+          <li><a href="https://www.redcross.org/volunteer/become-a-volunteer.html#step1">Volunteer</a></li>
+          <li><a href="https://www.redcross.org/about-us.html">About</a></li>
+          <li><a href="https://www.redcross.org/get-help.html">Get Help</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero section -->
+
+    <section class="hero-section">
+      <h1>
+        <span style="color: #e5e4e2 ; font-size:45px;">
+          Welcome to
+          <br>
+          <span style="color: #D70040; font-size: 60px;"> <!-- Corrected line -->
+            Blood Heroes
+      </h1>
+      <p>
+        <span style="color: ##e5e4e2  ; font-size:27px;">
+          As a Red Cross affiliate, <br> we ensure safe & reliable blood donation services for those in need.
+
+      </p>
+    </section>
+  </body>
+
+</html>
+
+<style>
+  /* Common CSS for improved styling */
+  .key-facts {
+    background-color: #1A6393;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    /* Text color changed to white */
+  }
+
+  .key-facts h2 {
+    font-size: 60px;
+    margin-bottom: 16px;
+    color: whitesmoke;
+  }
+
+  .key-facts p,
+  .key-facts li {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .key-facts ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .key-facts hr {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Key Facts -->
+<div class="key-facts">
+  <h2 class="mb-3">Key Facts</h2>
+  <p class="lead">
+    <strong>Today is:</strong> Sunday, March 31, 2024
+  </p>
+  <br>
+  <ul>
+    <li><strong>Of the 118.5 million blood donations collected globally, 40% of these are collected in high-income
+        countries, home to 16% of the world’s population.</strong></li>
+    <br>
+    <li><strong>In low-income countries, up to 54% of blood transfusions are given to children under 5 years of age;
+        whereas in high-income countries, the most frequently transfused patient group is over 60 years of age,
+        accounting for up to 76% of all transfusions.</strong></li>
+    <br>
+    <li><strong>Based on samples of 1000 people, the blood donation rate is 31.5 donations in high-income countries,
+        16.4 donations in upper-middle-income countries, 6.6 donations in lower-middle-income countries and 5.0
+        donations in low-income countries.</strong></li>
+    <br>
+    <li><strong>An increase of 10.7 million blood donations from voluntary unpaid donors has been reported from 2008 to
+        2018. In total, 79 countries collect over 90% of their blood supply from voluntary unpaid blood donors; however,
+        54 countries collect more than 50% of their blood supply from family/replacement or paid donors.</strong></li>
+
+  </ul>
+  <hr class="text-muted"> <!-- Grey line -->
+</div>
+
+ <!-- Title of this section -->
+<div class="key-facts">
+  <h2 class="mb-3">Blood Donors</h2>
+  <br>
+  <p>
+    <strong style="font-size: 20px;">Age and Gender of Blood Donors:</strong><br>
+    <br>
+  <p style="text-align: justify;">Data about the gender profile of blood donors show that globally 33% of blood
+    donations are given by women, although this ranges widely. In 15 of the 113 reporting countries, less than 10% of
+    donations are given by female donors.</p>
+  <p style="text-align: justify;">The age profile of blood donors shows that, proportionally, more young people donate
+    blood in low- and middle-income countries than in high-income countries. Demographic information of blood donors is
+    important for formulating and monitoring recruitment strategies.</p>
+  </p>
+  <p>
+    <strong style="font-size: 20px;">Types of Blood Donors:</strong>
+    <br>
+    <br>
+    <strong>There are 3 types of blood donors: </strong>
+  </p>
+  <ul>
+    <strong>
+      <li>voluntary unpaid</li>
+      <li>family/replacement</li>
+      <li>paid</li>
+    </strong>
+  </ul>
+  <p>
+
+    </ul>
+</div>
+
+<br>
+<br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title of this section -->
+  <title>Blood Donor Registration</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+
+
+    .content-section {
+      background-color: rgba(105, 105, 105, 0.7);
+      padding: 20px;
+      text-align: left;
+      border-radius: 10px;
+      margin: 20px;
+      max-width: 500px;
+      float: right;
+    }
+
+    .registration-form {
+      font-size: 1.2em;
+    }
+
+    .registration-form input,
+    .registration-form textarea {
+      border: none;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border-radius: 4px;
+    }
+
+    button[type="submit"] {
+      background-color: red;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    button[type="submit"]:hover {
+      background-color: darkred;
+    }
+
+    .hero {
+      position: relative;
+      text-align: left;
+      background-image: url("https://cdn.pixabay.com/photo/2020/03/20/15/46/blood-4951009_1280.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 60vh;
+    }
+
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: whitesmoke;
+      z-index: 1;
+      padding: 20px;
+      width: 100%;
+      font-weight: bold;
+
+    }
+
+    .hero-content form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 style="color:black; font-size: 50px; text-align: center;"><b>The Blood Heroes Mission At Work </h1>
+
+
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- icons -->
+    <title>Font Awesome Icons</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      /* General styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Icon styles */
+      .icon-container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        /* Adjust spacing between icons */
+        margin-top: 40px;
+        /* Adjust top margin */
+      }
+
+      .icon-wrapper {
+        text-align: center;
+      }
+
+      .icon {
+        font-size: 80px;
+        color: #585858;
+      }
+
+      /* Link styles */
+      .link {
+        text-decoration: underline;
+        color: #4682B4;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="icon-container">
+      <div class="icon-wrapper">
+        <i class="fas fa-heart icon"></i>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a class="link"
+          href="https://www.redcross.org/about-us/news-and-events/news/2024/thank-you-for-delivering-relief-and-hope-on-giving-day"
+          target="_blank">Thank You for Delivering Relief and Hope on Giving Day</a>
+      </div>
+
+      <div class="icon-wrapper">
+        <i class="fa-solid fa-earth-americas icon"></i>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a class="link"
+          href="https://www.redcross.org/about-us/news-and-events/news/2024/conflict-in-sudan-red-cross-team-committed-to-helping.html"
+          target="_blank">Blood Heroes Supports Crisis in Sudan</a>
+      </div>
+
+      <div class="icon-wrapper">
+        <i class="fa-solid fa-clipboard-check icon"></i>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a class="link"
+          href="https://www.redcross.org/about-us/news-and-events/news/2024/get-ready-now-for-springs-severe-weather.html"
+          target="_blank">Get Ready Now for Spring’s Severe Weather</a>
+      </div>
+
+      <div class="icon-wrapper">
+        <i class="fa-solid fa-handshake icon"></i>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a class="link"
+          href="https://www.redcross.org/about-us/news-and-events/news/2024/womens-history-month-tiffany-circle-members-support-red-cross-mission-with-time-and-talent.html"
+          target="_blank">Women’s History Month: <br>Tiffany Circle Members<br> Support BLood Heroes Mission</a>
+      </div>
+    </div>
+  </body>
+
+  </html>
+  <br>
+  <br>
+  <br>
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- registration form -->
+    <title>Blood Donor Registration</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+      }
+
+
+
+      .content-section {
+        background-color: rgba(105, 105, 105, 0.7);
+        padding: 20px;
+        text-align: left;
+        border-radius: 10px;
+        margin: 20px;
+        max-width: 500px;
+        float: right;
+      }
+
+      .registration-form {
+        font-size: 1.2em;
+      }
+
+      .registration-form input,
+      .registration-form textarea {
+        border: none;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border-radius: 4px;
+      }
+
+      button[type="submit"] {
+        background-color: red;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      button[type="submit"]:hover {
+        background-color: darkred;
+      }
+
+      .hero {
+        position: relative;
+        text-align: left;
+        background-image: url("https://cdn.pixabay.com/photo/2020/03/20/15/46/blood-4951009_1280.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60vh;
+      }
+
+      .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: whitesmoke;
+        z-index: 1;
+        padding: 20px;
+        width: 100%;
+        font-weight: bold;
+
+      }
+
+      .hero-content form {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="hero">
+      <div class="hero-content">
+        <h1 style="color:white; text-align:center;">Blood Donor Registration</h1>
+
+
+        <form id="registration-form" class="registration-form"
+          style="background-color: rgba(105, 105, 105, 0.7); padding: 20px; text-align: left; border-radius: 10px; margin: 20px; max-width: 500px; float: right; font-size: 0.9em;"
+          action="save.php" method="post">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br>
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone" required><br>
+          <label for="donor-id">Donor ID <span style="color: white;"><br>(if already a donor)</span>:</label><br>
+          <input type="text" id="donor-id" name="donor"><br>
+          <button type="submit">Register</button>
+
+        </form>
+      </div>
+      </div>
+    </header>
+  </body>
+  <br>
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Facts</title>
+    <style>
+      /* Common CSS for improved styling */
+      .key-facts {
+        background-color: whitesmoke;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        color: #333;
+        /* Dark gray for text color */
+      }
+
+      .key-facts h2 {
+        font-size: 60px;
+        margin-bottom: 16px;
+        color: #333;
+        /* Dark gray for header */
+      }
+
+      .key-facts p,
+      .key-facts li {
+        font-size: 15px;
+        line-height: 1.5;
+        color: #555;
+        /* Light gray for regular text */
+      }
+
+      .key-facts ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+
+      .key-facts hr {
+        border-top: 1px solid #aaa;
+        /* Light gray for divider */
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Key Facts -->
+    <div class="key-facts">
+      <h2 class="mb-3" style="text-align: center;">Shop the Blood Heroes Store</h2>
+      <br>
+
+      <div style="text-align: center; font-size: 25px;">
+        Be prepared and ready to respond at home and your workplace.
+      </div>
+      <br>
+
+      </ul>
+      <hr class="text-muted"> <!-- Grey line -->
+    </div>
+
+  </body>
+
+  </html>
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- icons -->
+    <title>Icons with Links</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      .circle-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .circle {
+        margin: 0 80px;
+        /* Add margin to create space between circles */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .icon-link {
+        text-decoration: none;
+        color: black;
+      }
+
+      .fa-icon {
+        font-size: 72px;
+        /* Adjust the size of the icon */
+        color: red;
+        /* Color of the icon */
+      }
+
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="circle-container">
+      <div class="circle">
+        <i class="fa-solid fa-briefcase-medical fa-icon"></i>
+        <br>
+        <a href="https://www.redcross.org/store/first-aid-supplies" style="color:#4682B4;">First Aid Supplies</a>
+      </div>
+      <div class="circle">
+        <i class="fa-solid fa-heart-pulse fa-icon"></i>
+        <br>
+        <a href="https://www.redcross.org/store/training-supplies" style="color:#4682B4;">Training Supplies</a>
+      </div>
+      <div class="circle">
+        <i class="fa-solid fa-book-open fa-icon"></i>
+        <br>
+        <a href="https://www.redcross.org/store/books-and-dvds" style="color:#4682B4;" class="icon-link">Books &
+          DVDs</a>
+      </div>
+    </div>
+  </body>
+
+  </html>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+ <!-- footer -->
+  <!DOCTYPE html>
+  <html>
+
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha384-Bsm13Fxq1dPf/BZ1I3a5qP1bxqU5S01f8D1Z6z5gM5VwDgT1/7/gNQ3i5XmK2gQ33" crossorigin="anonymous" />
+    <style>
+      .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .drop {
+        font-size: 1.5em;
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="footer">
+      <i class="fas fa-tint drop"></i>
+      <p>Donate Blood, Save Lives. &copy; 2024 Blood Donation Awareness by Blood Heroes</p>
+      <p style="font-size: small;">This website is a bit clone of the American Red Cross</p>
+
+    </div>
+  </body>
+
+  </html>
+
